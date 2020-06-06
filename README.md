@@ -133,7 +133,7 @@ Authentication token to track down who wants to create a game.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="name" type="object" required=true %}
+{% api-method-parameter name="name" type="string" required=true %}
 Name of the game to be created.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
